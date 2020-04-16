@@ -2,9 +2,23 @@ h1 {
     text-decoration: underline;
 }
 
+.container {
+    width: 75vw;
+    height: 75vh;
+    border: 2px solid yellowgreen;
+}
+
 .centered {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%)
+}
+
+.display {
+    color: blue;
+    padding: 10px;
+}
+button {
+    margin: 0 10px;
 }
